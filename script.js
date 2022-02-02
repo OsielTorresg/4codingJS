@@ -20,4 +20,19 @@ console.log(firstNums(numbers, 7));
 // const idx2 = num.indexOf(3);
 // console.log(idx);
 // console.log(idx2);
-/////hard/////
+// very hard/////
+// var coinChange = function (coins, amount) {
+//   const table = new Array(amount + 1).fill(infinity);
+//   table[0] = 0;
+
+//   for (let coin of coins) {
+//     for (let i = 0; i < table.length; i++) {
+//       if (coin <= i) {
+//         let idx = i - coin;
+//         let potentialAmt = table[idx] + 1;
+//         table[i] = Math.min(potentialAmt, table[i]);
+//       }
+//     }
+//   }
+//   return table[table.length - 1] === infinity ? -1 : table[table.length - 1];
+// };
